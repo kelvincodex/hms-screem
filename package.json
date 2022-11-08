@@ -1,0 +1,28 @@
+{
+  "name": "peculiar-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.12.0",
+    "@vicons/utils": "^0.1.4",
+    "pinia": "^2.0.23",
+    "vue": "^3.2.41",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@vicons/fa": "^0.12.0",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "autoprefixer": "^10.4.13",
+    "naive-ui": "^2.33.5",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.2",
+    "vite": "^3.2.0"
+  }
+}
