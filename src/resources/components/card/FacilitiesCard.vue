@@ -19,7 +19,7 @@
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <AmpStoriesFilled />
         </Icon>
         <p class="icon-title">
           Air Condition
@@ -35,7 +35,7 @@
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <TheatersOutlined />
         </Icon>
         <p class="icon-title">
           Heater
@@ -43,7 +43,7 @@
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <WashOutlined />
         </Icon>
         <p class="icon-title">
           Washing machine
@@ -53,50 +53,50 @@
     <div class="flex justify-start items-center mt-[10px]">
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <KitchenSharp />
         </Icon>
         <p class="icon-title">
-          Television
+          Kitchenette
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Bed />
+          <ViewSidebarSharp />
         </Icon>
         <p class="icon-title">
-          Bed
+          Bar
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <AcquisitionsIncorporated />
         </Icon>
         <p class="icon-title">
-          Air Condition
+          Gas Stove
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Fan />
+          <ChargingStation />
         </Icon>
         <p class="icon-title">
-          Fan
+          Electric Stove
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <DumpsterFire />
         </Icon>
         <p class="icon-title">
-          Heater
+          Microwave
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <AllInboxTwotone />
         </Icon>
         <p class="icon-title">
-          Washing machine
+          Toaster
         </p>
       </div>
     </div>
@@ -104,50 +104,50 @@
     <div class="flex justify-start items-center mt-[10px]">
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <AcUnitOutlined />
         </Icon>
         <p class="icon-title">
-          Television
+          Garden
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Bed />
+          <TerrainSharp />
         </Icon>
         <p class="icon-title">
-          Bed
+          Terraces
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <BalconySharp />
         </Icon>
         <p class="icon-title">
-          Air Condition
+          Balcony
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Fan />
+          <RestaurantOutlined />
         </Icon>
         <p class="icon-title">
-          Fan
+          restaurant
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <GarageOutlined />
         </Icon>
         <p class="icon-title">
-          Heater
+          Garage
         </p>
       </div>
       <div class="text-center card-container">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <MenuBookOutlined />
         </Icon>
         <p class="icon-title">
-          Washing machine
+          Study
         </p>
       </div>
     </div>
@@ -158,7 +158,22 @@
 import {Icon} from "@vicons/utils";
 import {Tv} from "@vicons/fa"
 import {Bed} from "@vicons/fa"
+import {AcquisitionsIncorporated} from "@vicons/fa"
+import {DumpsterFire} from "@vicons/fa"
+import {ChargingStation} from "@vicons/fa"
 import {Fan} from "@vicons/fa"
+import {TheatersOutlined} from "@vicons/material"
+import {WashOutlined} from "@vicons/material"
+import {KitchenSharp} from "@vicons/material"
+import {RestaurantOutlined} from "@vicons/material"
+import {AcUnitOutlined} from "@vicons/material"
+import {AllInboxTwotone} from "@vicons/material"
+import {ViewSidebarSharp} from "@vicons/material"
+import {TerrainSharp} from "@vicons/material"
+import {GarageOutlined} from "@vicons/material"
+import {MenuBookOutlined} from "@vicons/material"
+import {BalconySharp} from "@vicons/material"
+import {AmpStoriesFilled} from "@vicons/material"
 </script>
 
 <style scoped>

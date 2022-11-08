@@ -18,7 +18,7 @@
           <input placeholder="Enter No. of rooms in this category" class="form-input w-full rounded-md">
         </div>
 
-        <div class="flex gap-2">
+        <div class="flex gap-2 mt-7">
           <div class="w-full  mt-[10px]">
             <label>Minimum No. of Guest Per Room</label>
             <input placeholder="Enter No. of Guest Per Room" class="form-input w-full rounded-md">

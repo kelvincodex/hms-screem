@@ -3,7 +3,7 @@
     <div class="flex justify-center items-center">
       <button class="text-center card-container" @click="handleClick('Room')">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <Warehouse />
         </Icon>
         <p class="icon-title">
           Room
@@ -14,7 +14,7 @@
       </button>
       <button class="text-center card-container" @click="handleClick('Apartment')">
         <Icon size="50" color="#397FF6">
-          <Tv />
+          <LaptopHouse />
         </Icon>
         <p class="icon-title">
           Apartment
@@ -26,16 +26,19 @@
     </div>
     <RoomPopUpEnterRoom :show-modal="showRoomModal" @handleClick="handleNext" />
     <ApartmentPopUp :show-modal="showApartmentModal" />
+    <RoomAmenitiesPopUp :show-modal="showRoomAmenitiesModal" />
   </div>
 </template>
 
 <script setup>
 import {Icon} from "@vicons/utils";
-import {Tv} from "@vicons/fa"
+import {Warehouse} from "@vicons/fa"
+import {LaptopHouse} from "@vicons/fa"
 import {ref} from "vue";
 import RoomPopUpEnterRoom from "../modal/RoomPopUpEnterRoom.vue";
 import ApartmentPopUp from "../modal/ApartmentPopUp.vue";
-const showModal = ref(false)
+import RoomAmenitiesPopUp from "../modal/RoomAmenitiesPopUp.vue";
+const showRoomAmenitiesModal = ref(false)
 const showRoomModal = ref(false)
 const showApartmentModal = ref(false)
 const handleClick = (value) => {
@@ -49,7 +52,7 @@ const handleClick = (value) => {
 
 }
 const handleNext = (value) => {
-  alert('hello')
+  showRoomAmenitiesModal.value = true
 }
 </script>
 
