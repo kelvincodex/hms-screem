@@ -2,7 +2,7 @@
   <n-modal v-model:show="showModal">
     <n-card
         style="width: 600px"
-        title="Enter Room Category Name and No of rooms available"
+        title="Select Room Amenities"
         :bordered="false"
         size="huge"
         role="dialog"
@@ -10,24 +10,7 @@
         class="p-[20px]"
     >
       <div class="w-full">
-        <div class="w-full">
-          <input placeholder="Enter Room Category Name" class="form-input w-full rounded-md">
-        </div>
-        <div class="w-full mt-[10px]">
-          <label>No. of rooms in this category</label>
-          <input placeholder="Enter No. of rooms in this category" class="form-input w-full rounded-md">
-        </div>
 
-        <div class="flex gap-2">
-          <div class="w-full  mt-[10px]">
-            <label>Minimum No. of Guest Per Room</label>
-            <input placeholder="Enter No. of Guest Per Room" class="form-input w-full rounded-md">
-          </div>
-          <div class="w-full  mt-[10px]">
-            <label>Maximum No. of Guest Per Room</label>
-            <input placeholder="Enter No. of Guest Per Room" class="form-input w-full rounded-md">
-          </div>
-        </div>
       </div>
       <template #footer>
         <div class="flex justify-center">
