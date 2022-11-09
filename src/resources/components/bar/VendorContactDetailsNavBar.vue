@@ -2,7 +2,7 @@
   <div class="fixed w-full  h-[96px] nav-container">
     <div class="flex justify-between items-center w-full h-full">
       <div class="ml-[114px] w-[149px] h-[38.34px]">
-        <img src="../../../assets/image/PayculiarLogo.png" class="w-full h-full">
+        <img src="../../../assets/image/PayculiarLogo.png" class="w-full h-full" />
       </div>
       <div class="mr-[40px] flex items-center gap-5">
         <BaseIcon size="21">
@@ -10,7 +10,7 @@
         </BaseIcon>
         <div class="flex gap-0.5 items-center">
           <div class="w-[39px] h-[39px] border rounded-full">
-            <img src="src/assets/image/profile.avif" class="w-full h-full rounded-full">
+            <img src="../../../assets/image/person.jpg" class="w-full h-full rounded-full">
           </div>
 
           <BaseIcon>
